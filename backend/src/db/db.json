@@ -1,0 +1,4384 @@
+{
+  "cities": [
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "center": [
+        28.6139,
+        77.209
+      ],
+      "avgCongestion": 58,
+      "avgAqi": 245,
+      "activeIncidents": 2,
+      "totalVehicles": 7420
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "center": [
+        19.076,
+        72.8777
+      ],
+      "avgCongestion": 62,
+      "avgAqi": 135,
+      "activeIncidents": 3,
+      "totalVehicles": 8150
+    },
+    {
+      "id": "bengaluru",
+      "name": "Bengaluru",
+      "center": [
+        12.9716,
+        77.5946
+      ],
+      "avgCongestion": 68,
+      "avgAqi": 92,
+      "activeIncidents": 4,
+      "totalVehicles": 9330
+    },
+    {
+      "id": "pune",
+      "name": "Pune",
+      "center": [
+        18.5204,
+        73.8567
+      ],
+      "avgCongestion": 48,
+      "avgAqi": 110,
+      "activeIncidents": 1,
+      "totalVehicles": 5200
+    }
+  ],
+  "roads": [
+    {
+      "id": "blr_orr",
+      "cityId": "bengaluru",
+      "name": "Outer Ring Road (Silk Board to HSR)",
+      "polyline": [
+        [
+          12.9176,
+          77.6244
+        ],
+        [
+          12.9145,
+          77.632
+        ],
+        [
+          12.911,
+          77.638
+        ],
+        [
+          12.91,
+          77.642
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 82,
+      "avgSpeed": 14,
+      "vehicleCount": 142,
+      "aqi": 145,
+      "incidentIds": [
+        "inc_1"
+      ]
+    },
+    {
+      "id": "blr_hosur",
+      "cityId": "bengaluru",
+      "name": "Hosur Road (Silk Board to Koramangala)",
+      "polyline": [
+        [
+          12.9176,
+          77.6244
+        ],
+        [
+          12.924,
+          77.622
+        ],
+        [
+          12.93,
+          77.62
+        ],
+        [
+          12.94,
+          77.61
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 54,
+      "avgSpeed": 28,
+      "vehicleCount": 98,
+      "aqi": 115,
+      "incidentIds": []
+    },
+    {
+      "id": "blr_100ft",
+      "cityId": "bengaluru",
+      "name": "Indiranagar 100 Feet Road",
+      "polyline": [
+        [
+          12.9719,
+          77.6412
+        ],
+        [
+          12.966,
+          77.6411
+        ],
+        [
+          12.96,
+          77.641
+        ],
+        [
+          12.952,
+          77.6405
+        ]
+      ],
+      "congestionLevel": "green",
+      "congestionPercent": 22,
+      "avgSpeed": 45,
+      "vehicleCount": 45,
+      "aqi": 72,
+      "incidentIds": []
+    },
+    {
+      "id": "blr_mg",
+      "cityId": "bengaluru",
+      "name": "MG Road (Trinity to Brigade Road)",
+      "polyline": [
+        [
+          12.9738,
+          77.6119
+        ],
+        [
+          12.974,
+          77.605
+        ],
+        [
+          12.9745,
+          77.6
+        ],
+        [
+          12.975,
+          77.59
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 78,
+      "avgSpeed": 16,
+      "vehicleCount": 125,
+      "aqi": 128,
+      "incidentIds": []
+    },
+    {
+      "id": "blr_ecity",
+      "cityId": "bengaluru",
+      "name": "Electronic City Flyover",
+      "polyline": [
+        [
+          12.8489,
+          77.6601
+        ],
+        [
+          12.865,
+          77.655
+        ],
+        [
+          12.88,
+          77.65
+        ],
+        [
+          12.9,
+          77.64
+        ]
+      ],
+      "congestionLevel": "green",
+      "congestionPercent": 30,
+      "avgSpeed": 52,
+      "vehicleCount": 60,
+      "aqi": 80,
+      "incidentIds": []
+    },
+    {
+      "id": "mum_marine",
+      "cityId": "mumbai",
+      "name": "Marine Drive Promenade",
+      "polyline": [
+        [
+          18.943,
+          72.823
+        ],
+        [
+          18.936,
+          72.821
+        ],
+        [
+          18.93,
+          72.82
+        ],
+        [
+          18.92,
+          72.818
+        ]
+      ],
+      "congestionLevel": "green",
+      "congestionPercent": 25,
+      "avgSpeed": 48,
+      "vehicleCount": 52,
+      "aqi": 85,
+      "incidentIds": []
+    },
+    {
+      "id": "mum_sealink",
+      "cityId": "mumbai",
+      "name": "Bandra-Worli Sea Link",
+      "polyline": [
+        [
+          19.025,
+          72.818
+        ],
+        [
+          19.018,
+          72.816
+        ],
+        [
+          19.01,
+          72.815
+        ],
+        [
+          18.99,
+          72.811
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 42,
+      "avgSpeed": 65,
+      "vehicleCount": 110,
+      "aqi": 98,
+      "incidentIds": []
+    },
+    {
+      "id": "mum_weh",
+      "cityId": "mumbai",
+      "name": "Western Express Highway (Andheri)",
+      "polyline": [
+        [
+          19.1155,
+          72.856
+        ],
+        [
+          19.123,
+          72.8575
+        ],
+        [
+          19.13,
+          72.859
+        ],
+        [
+          19.15,
+          72.862
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 88,
+      "avgSpeed": 10,
+      "vehicleCount": 210,
+      "aqi": 180,
+      "incidentIds": [
+        "inc_2"
+      ]
+    },
+    {
+      "id": "mum_link",
+      "cityId": "mumbai",
+      "name": "Link Road (Khar to Santa Cruz)",
+      "polyline": [
+        [
+          19.077,
+          72.836
+        ],
+        [
+          19.083,
+          72.835
+        ],
+        [
+          19.09,
+          72.834
+        ],
+        [
+          19.1,
+          72.833
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 76,
+      "avgSpeed": 18,
+      "vehicleCount": 115,
+      "aqi": 155,
+      "incidentIds": []
+    },
+    {
+      "id": "mum_sclr",
+      "cityId": "mumbai",
+      "name": "SCLR (Santacruz Chembur Link Road)",
+      "polyline": [
+        [
+          19.072,
+          72.865
+        ],
+        [
+          19.07,
+          72.872
+        ],
+        [
+          19.068,
+          72.88
+        ],
+        [
+          19.065,
+          72.9
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 60,
+      "avgSpeed": 24,
+      "vehicleCount": 130,
+      "aqi": 160,
+      "incidentIds": []
+    },
+    {
+      "id": "del_dnd",
+      "cityId": "delhi",
+      "name": "DND Flyway (Noida to Delhi)",
+      "polyline": [
+        [
+          28.5804,
+          77.275
+        ],
+        [
+          28.575,
+          77.283
+        ],
+        [
+          28.57,
+          77.29
+        ],
+        [
+          28.56,
+          77.31
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 48,
+      "avgSpeed": 55,
+      "vehicleCount": 160,
+      "aqi": 220,
+      "incidentIds": []
+    },
+    {
+      "id": "del_ring_aiims",
+      "cityId": "delhi",
+      "name": "Ring Road (AIIMS Chowk to Lajpat Nagar)",
+      "polyline": [
+        [
+          28.5672,
+          77.21
+        ],
+        [
+          28.5676,
+          77.218
+        ],
+        [
+          28.568,
+          77.225
+        ],
+        [
+          28.569,
+          77.24
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 85,
+      "avgSpeed": 12,
+      "vehicleCount": 195,
+      "aqi": 310,
+      "incidentIds": []
+    },
+    {
+      "id": "del_orr_nehru",
+      "cityId": "delhi",
+      "name": "Outer Ring Road (Nehru Place)",
+      "polyline": [
+        [
+          28.549,
+          77.252
+        ],
+        [
+          28.5475,
+          77.245
+        ],
+        [
+          28.546,
+          77.235
+        ],
+        [
+          28.543,
+          77.22
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 74,
+      "avgSpeed": 18,
+      "vehicleCount": 135,
+      "aqi": 280,
+      "incidentIds": []
+    },
+    {
+      "id": "del_cp",
+      "cityId": "delhi",
+      "name": "Connaught Place Inner Circle",
+      "polyline": [
+        [
+          28.6304,
+          77.2177
+        ],
+        [
+          28.629,
+          77.216
+        ],
+        [
+          28.628,
+          77.215
+        ],
+        [
+          28.63,
+          77.22
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 55,
+      "avgSpeed": 22,
+      "vehicleCount": 88,
+      "aqi": 195,
+      "incidentIds": []
+    },
+    {
+      "id": "del_mathura",
+      "cityId": "delhi",
+      "name": "Mathura Road (Nizamuddin to Okhla)",
+      "polyline": [
+        [
+          28.613,
+          77.245
+        ],
+        [
+          28.6,
+          77.248
+        ],
+        [
+          28.59,
+          77.25
+        ],
+        [
+          28.57,
+          77.26
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 91,
+      "avgSpeed": 8,
+      "vehicleCount": 220,
+      "aqi": 340,
+      "incidentIds": [
+        "inc_3"
+      ]
+    },
+    {
+      "id": "pn_hinjewadi",
+      "cityId": "pune",
+      "name": "Hinjewadi Phase 1 Main Road",
+      "polyline": [
+        [
+          18.5913,
+          73.7389
+        ],
+        [
+          18.588,
+          73.742
+        ],
+        [
+          18.585,
+          73.745
+        ],
+        [
+          18.58,
+          73.75
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 80,
+      "avgSpeed": 15,
+      "vehicleCount": 110,
+      "aqi": 130,
+      "incidentIds": [
+        "inc_4"
+      ]
+    },
+    {
+      "id": "pn_sb_road",
+      "cityId": "pune",
+      "name": "Senapati Bapat Road",
+      "polyline": [
+        [
+          18.5362,
+          73.8304
+        ],
+        [
+          18.532,
+          73.8307
+        ],
+        [
+          18.528,
+          73.831
+        ],
+        [
+          18.52,
+          73.832
+        ]
+      ],
+      "congestionLevel": "green",
+      "congestionPercent": 28,
+      "avgSpeed": 42,
+      "vehicleCount": 50,
+      "aqi": 88,
+      "incidentIds": []
+    },
+    {
+      "id": "pn_karve",
+      "cityId": "pune",
+      "name": "Karve Road (Deccan to Kothrud)",
+      "polyline": [
+        [
+          18.508,
+          73.834
+        ],
+        [
+          18.505,
+          73.827
+        ],
+        [
+          18.502,
+          73.82
+        ],
+        [
+          18.498,
+          73.81
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 62,
+      "avgSpeed": 25,
+      "vehicleCount": 95,
+      "aqi": 125,
+      "incidentIds": []
+    },
+    {
+      "id": "pn_solapur",
+      "cityId": "pune",
+      "name": "Pune-Solapur Road (Hadapsar)",
+      "polyline": [
+        [
+          18.506,
+          73.912
+        ],
+        [
+          18.505,
+          73.92
+        ],
+        [
+          18.504,
+          73.93
+        ],
+        [
+          18.502,
+          73.95
+        ]
+      ],
+      "congestionLevel": "yellow",
+      "congestionPercent": 50,
+      "avgSpeed": 38,
+      "vehicleCount": 82,
+      "aqi": 112,
+      "incidentIds": []
+    },
+    {
+      "id": "pn_univ",
+      "cityId": "pune",
+      "name": "University Chowk (Ganeshkhind Road)",
+      "polyline": [
+        [
+          18.5529,
+          73.8275
+        ],
+        [
+          18.548,
+          73.833
+        ],
+        [
+          18.543,
+          73.84
+        ],
+        [
+          18.535,
+          73.85
+        ]
+      ],
+      "congestionLevel": "red",
+      "congestionPercent": 72,
+      "avgSpeed": 18,
+      "vehicleCount": 118,
+      "aqi": 140,
+      "incidentIds": []
+    }
+  ],
+  "cameras": [
+    {
+      "id": "cam_blr_silkboard",
+      "cityId": "bengaluru",
+      "name": "Silk Board Junction Camera",
+      "coordinate": [
+        12.9176,
+        77.6244
+      ],
+      "status": "active",
+      "liveCount": 38,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_blr_hsr3",
+      "cityId": "bengaluru",
+      "name": "HSR Layout Sector 3 Chowk",
+      "coordinate": [
+        12.911,
+        77.638
+      ],
+      "status": "active",
+      "liveCount": 22,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_blr_100ft",
+      "cityId": "bengaluru",
+      "name": "Indiranagar 100ft Double Rd",
+      "coordinate": [
+        12.96,
+        77.641
+      ],
+      "status": "active",
+      "liveCount": 12,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_blr_mg_res",
+      "cityId": "bengaluru",
+      "name": "MG Road - Brigade Rd Junction",
+      "coordinate": [
+        12.9738,
+        77.6119
+      ],
+      "status": "active",
+      "liveCount": 32,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_blr_ecity",
+      "cityId": "bengaluru",
+      "name": "Electronic City Toll Plaza",
+      "coordinate": [
+        12.8489,
+        77.6601
+      ],
+      "status": "active",
+      "liveCount": 15,
+      "speedLimit": 80,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_mum_marine",
+      "cityId": "mumbai",
+      "name": "Marine Drive - Chowpatty Chowk",
+      "coordinate": [
+        18.943,
+        72.823
+      ],
+      "status": "active",
+      "liveCount": 14,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_mum_bandra",
+      "cityId": "mumbai",
+      "name": "Bandra BWSL Entrance Chowk",
+      "coordinate": [
+        19.025,
+        72.818
+      ],
+      "status": "active",
+      "liveCount": 28,
+      "speedLimit": 80,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_mum_weh_andheri",
+      "cityId": "mumbai",
+      "name": "WEH - Andheri Flyover Junction",
+      "coordinate": [
+        19.1155,
+        72.856
+      ],
+      "status": "active",
+      "liveCount": 45,
+      "speedLimit": 70,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_mum_link_khar",
+      "cityId": "mumbai",
+      "name": "Khar Link Road Intersection",
+      "coordinate": [
+        19.077,
+        72.836
+      ],
+      "status": "active",
+      "liveCount": 30,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_mum_sclr_chembur",
+      "cityId": "mumbai",
+      "name": "SCLR Chembur Junction",
+      "coordinate": [
+        19.065,
+        72.9
+      ],
+      "status": "active",
+      "liveCount": 26,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_del_dnd_noida",
+      "cityId": "delhi",
+      "name": "DND Flyway Noida Entry Toll",
+      "coordinate": [
+        28.5804,
+        77.275
+      ],
+      "status": "active",
+      "liveCount": 29,
+      "speedLimit": 80,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_del_ring_aiims",
+      "cityId": "delhi",
+      "name": "Ring Road AIIMS Flyover Junction",
+      "coordinate": [
+        28.5672,
+        77.21
+      ],
+      "status": "active",
+      "liveCount": 48,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_del_orr_nehru",
+      "cityId": "delhi",
+      "name": "Outer Ring Road Nehru Place",
+      "coordinate": [
+        28.549,
+        77.252
+      ],
+      "status": "active",
+      "liveCount": 28,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_del_cp_circle",
+      "cityId": "delhi",
+      "name": "CP Outer Circle Connaught Chowk",
+      "coordinate": [
+        28.6304,
+        77.2177
+      ],
+      "status": "active",
+      "liveCount": 24,
+      "speedLimit": 40,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_del_mathura_niz",
+      "cityId": "delhi",
+      "name": "Mathura Road Nizamuddin Chowk",
+      "coordinate": [
+        28.613,
+        77.245
+      ],
+      "status": "active",
+      "liveCount": 52,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_pn_hinjewadi",
+      "cityId": "pune",
+      "name": "Hinjewadi Shivaji Chowk",
+      "coordinate": [
+        18.5913,
+        73.7389
+      ],
+      "status": "active",
+      "liveCount": 30,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_pn_sb_road",
+      "cityId": "pune",
+      "name": "SB Road - ICC Trade Tower",
+      "coordinate": [
+        18.5362,
+        73.8304
+      ],
+      "status": "active",
+      "liveCount": 16,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_pn_swargate",
+      "cityId": "pune",
+      "name": "Swargate Junction Corner",
+      "coordinate": [
+        18.5018,
+        73.8636
+      ],
+      "status": "active",
+      "liveCount": 34,
+      "speedLimit": 50,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_pn_univ",
+      "cityId": "pune",
+      "name": "Pune University Chowk",
+      "coordinate": [
+        18.5529,
+        73.8275
+      ],
+      "status": "active",
+      "liveCount": 28,
+      "speedLimit": 60,
+      "lastViolation": null
+    },
+    {
+      "id": "cam_pn_karve",
+      "cityId": "pune",
+      "name": "Karve Road Nal Stop Chowk",
+      "coordinate": [
+        18.508,
+        73.834
+      ],
+      "status": "active",
+      "liveCount": 25,
+      "speedLimit": 50,
+      "lastViolation": null
+    }
+  ],
+  "signals": [
+    {
+      "id": "sig_blr_silkboard",
+      "cityId": "bengaluru",
+      "cameraId": "cam_blr_silkboard",
+      "junctionName": "Silk Board Junction",
+      "coordinate": [
+        12.9176,
+        77.6244
+      ],
+      "status": "RED",
+      "queueLength": 32,
+      "waitTime": 45,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 15,
+        "South": 10,
+        "East": 22,
+        "West": 5
+      }
+    },
+    {
+      "id": "sig_blr_hsr3",
+      "cityId": "bengaluru",
+      "cameraId": "cam_blr_hsr3",
+      "junctionName": "HSR Layout Sector 3 Chowk",
+      "coordinate": [
+        12.911,
+        77.638
+      ],
+      "status": "GREEN",
+      "queueLength": 12,
+      "waitTime": 20,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 5,
+        "South": 4,
+        "East": 12,
+        "West": 3
+      }
+    },
+    {
+      "id": "sig_blr_100ft",
+      "cityId": "bengaluru",
+      "cameraId": "cam_blr_100ft",
+      "junctionName": "Indiranagar 100ft Double Rd",
+      "coordinate": [
+        12.96,
+        77.641
+      ],
+      "status": "GREEN",
+      "queueLength": 8,
+      "waitTime": 15,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 2,
+        "South": 3,
+        "East": 8,
+        "West": 1
+      }
+    },
+    {
+      "id": "sig_blr_mg_res",
+      "cityId": "bengaluru",
+      "cameraId": "cam_blr_mg_res",
+      "junctionName": "MG Road - Brigade Rd Junction",
+      "coordinate": [
+        12.9738,
+        77.6119
+      ],
+      "status": "RED",
+      "queueLength": 26,
+      "waitTime": 35,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 8,
+        "South": 12,
+        "East": 18,
+        "West": 4
+      }
+    },
+    {
+      "id": "sig_blr_ecity",
+      "cityId": "bengaluru",
+      "cameraId": "cam_blr_ecity",
+      "junctionName": "Electronic City Toll Gate",
+      "coordinate": [
+        12.8489,
+        77.6601
+      ],
+      "status": "GREEN",
+      "queueLength": 5,
+      "waitTime": 10,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 2,
+        "South": 5,
+        "East": 3,
+        "West": 1
+      }
+    },
+    {
+      "id": "sig_mum_marine",
+      "cityId": "mumbai",
+      "cameraId": "cam_mum_marine",
+      "junctionName": "Marine Drive - Chowpatty Chowk",
+      "coordinate": [
+        18.943,
+        72.823
+      ],
+      "status": "GREEN",
+      "queueLength": 6,
+      "waitTime": 15,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 2,
+        "South": 6,
+        "East": 1,
+        "West": 1
+      }
+    },
+    {
+      "id": "sig_mum_bandra",
+      "cityId": "mumbai",
+      "cameraId": "cam_mum_bandra",
+      "junctionName": "Bandra BWSL Entrance Chowk",
+      "coordinate": [
+        19.025,
+        72.818
+      ],
+      "status": "RED",
+      "queueLength": 20,
+      "waitTime": 30,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 12,
+        "South": 8,
+        "East": 15,
+        "West": 2
+      }
+    },
+    {
+      "id": "sig_mum_weh_andheri",
+      "cityId": "mumbai",
+      "cameraId": "cam_mum_weh_andheri",
+      "junctionName": "WEH - Andheri Flyover Junction",
+      "coordinate": [
+        19.1155,
+        72.856
+      ],
+      "status": "RED",
+      "queueLength": 42,
+      "waitTime": 65,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 25,
+        "South": 22,
+        "East": 30,
+        "West": 12
+      }
+    },
+    {
+      "id": "sig_mum_link_khar",
+      "cityId": "mumbai",
+      "cameraId": "cam_mum_link_khar",
+      "junctionName": "Khar Link Road Intersection",
+      "coordinate": [
+        19.077,
+        72.836
+      ],
+      "status": "GREEN",
+      "queueLength": 18,
+      "waitTime": 25,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 8,
+        "South": 10,
+        "East": 14,
+        "West": 6
+      }
+    },
+    {
+      "id": "sig_mum_sclr_chembur",
+      "cityId": "mumbai",
+      "cameraId": "cam_mum_sclr_chembur",
+      "junctionName": "SCLR Chembur Junction",
+      "coordinate": [
+        19.065,
+        72.9
+      ],
+      "status": "RED",
+      "queueLength": 22,
+      "waitTime": 40,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 10,
+        "South": 12,
+        "East": 16,
+        "West": 8
+      }
+    },
+    {
+      "id": "sig_del_dnd_noida",
+      "cityId": "delhi",
+      "cameraId": "cam_del_dnd_noida",
+      "junctionName": "DND Flyway Noida Entry Toll",
+      "coordinate": [
+        28.5804,
+        77.275
+      ],
+      "status": "GREEN",
+      "queueLength": 15,
+      "waitTime": 20,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 5,
+        "South": 15,
+        "East": 6,
+        "West": 4
+      }
+    },
+    {
+      "id": "sig_del_ring_aiims",
+      "cityId": "delhi",
+      "cameraId": "cam_del_ring_aiims",
+      "junctionName": "Ring Road AIIMS Flyover Junction",
+      "coordinate": [
+        28.5672,
+        77.21
+      ],
+      "status": "RED",
+      "queueLength": 45,
+      "waitTime": 70,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 22,
+        "South": 18,
+        "East": 35,
+        "West": 10
+      }
+    },
+    {
+      "id": "sig_del_orr_nehru",
+      "cityId": "delhi",
+      "cameraId": "cam_del_orr_nehru",
+      "junctionName": "Outer Ring Road Nehru Place",
+      "coordinate": [
+        28.549,
+        77.252
+      ],
+      "status": "RED",
+      "queueLength": 25,
+      "waitTime": 45,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 12,
+        "South": 10,
+        "East": 18,
+        "West": 6
+      }
+    },
+    {
+      "id": "sig_del_cp_circle",
+      "cityId": "delhi",
+      "cameraId": "cam_del_cp_circle",
+      "junctionName": "CP Outer Circle Connaught Chowk",
+      "coordinate": [
+        28.6304,
+        77.2177
+      ],
+      "status": "GREEN",
+      "queueLength": 18,
+      "waitTime": 25,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 8,
+        "South": 6,
+        "East": 12,
+        "West": 4
+      }
+    },
+    {
+      "id": "sig_del_mathura_niz",
+      "cityId": "delhi",
+      "cameraId": "cam_del_mathura_niz",
+      "junctionName": "Mathura Road Nizamuddin Chowk",
+      "coordinate": [
+        28.613,
+        77.245
+      ],
+      "status": "RED",
+      "queueLength": 48,
+      "waitTime": 80,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 28,
+        "South": 20,
+        "East": 32,
+        "West": 15
+      }
+    },
+    {
+      "id": "sig_pn_hinjewadi",
+      "cityId": "pune",
+      "cameraId": "cam_pn_hinjewadi",
+      "junctionName": "Hinjewadi Shivaji Chowk",
+      "coordinate": [
+        18.5913,
+        73.7389
+      ],
+      "status": "RED",
+      "queueLength": 28,
+      "waitTime": 50,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 15,
+        "South": 12,
+        "East": 20,
+        "West": 8
+      }
+    },
+    {
+      "id": "sig_pn_sb_road",
+      "cityId": "pune",
+      "cameraId": "cam_pn_sb_road",
+      "junctionName": "SB Road - ICC Trade Tower",
+      "coordinate": [
+        18.5362,
+        73.8304
+      ],
+      "status": "GREEN",
+      "queueLength": 10,
+      "waitTime": 15,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 4,
+        "South": 5,
+        "East": 8,
+        "West": 3
+      }
+    },
+    {
+      "id": "sig_pn_swargate",
+      "cityId": "pune",
+      "cameraId": "cam_pn_swargate",
+      "junctionName": "Swargate Junction Corner",
+      "coordinate": [
+        18.5018,
+        73.8636
+      ],
+      "status": "RED",
+      "queueLength": 30,
+      "waitTime": 45,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 14,
+        "South": 16,
+        "East": 24,
+        "West": 8
+      }
+    },
+    {
+      "id": "sig_pn_univ",
+      "cityId": "pune",
+      "cameraId": "cam_pn_univ",
+      "junctionName": "Pune University Chowk",
+      "coordinate": [
+        18.5529,
+        73.8275
+      ],
+      "status": "RED",
+      "queueLength": 25,
+      "waitTime": 40,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 10,
+        "South": 15,
+        "East": 18,
+        "West": 6
+      }
+    },
+    {
+      "id": "sig_pn_karve",
+      "cityId": "pune",
+      "cameraId": "cam_pn_karve",
+      "junctionName": "Karve Road Nal Stop Chowk",
+      "coordinate": [
+        18.508,
+        73.834
+      ],
+      "status": "GREEN",
+      "queueLength": 20,
+      "waitTime": 30,
+      "timingMode": "adaptive",
+      "activePriority": false,
+      "directionQueues": {
+        "North": 8,
+        "South": 12,
+        "East": 15,
+        "West": 5
+      }
+    }
+  ],
+  "vehicles": [
+    {
+      "regNumber": "MH12NI1525",
+      "owner": "Aditya Pillai",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:59:32.841Z"
+    },
+    {
+      "regNumber": "DL3CGH6039",
+      "owner": "Karan Deshmukh",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:45:32.841Z"
+    },
+    {
+      "regNumber": "KA51JB8610",
+      "owner": "Rajesh Singh",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T17:12:32.841Z"
+    },
+    {
+      "regNumber": "MH02GW6128",
+      "owner": "Sneha Nair",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_sclr_chembur",
+      "lastSeenCameraName": "SCLR Chembur Junction",
+      "lastSeenTime": "2026-07-16T17:10:32.841Z"
+    },
+    {
+      "regNumber": "MH12PR6027",
+      "owner": "Rahul Pillai",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:19:32.841Z"
+    },
+    {
+      "regNumber": "MH12BA1537",
+      "owner": "Rajesh Garg",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T18:29:32.841Z"
+    },
+    {
+      "regNumber": "DL3CFE2461",
+      "owner": "Rohan Trivedi",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:50:32.841Z"
+    },
+    {
+      "regNumber": "MH02EK8917",
+      "owner": "Vikram Verma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T18:44:32.841Z"
+    },
+    {
+      "regNumber": "MH02GT3529",
+      "owner": "Vikram Gupta",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T17:20:32.841Z"
+    },
+    {
+      "regNumber": "DL3CEM9607",
+      "owner": "Arjun Nair",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:20:32.841Z"
+    },
+    {
+      "regNumber": "KA51NY7457",
+      "owner": "Neha Sharma",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T17:08:32.841Z"
+    },
+    {
+      "regNumber": "KA51CR5955",
+      "owner": "Rahul Trivedi",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:53:32.841Z"
+    },
+    {
+      "regNumber": "MH02HX4721",
+      "owner": "Kunal Joshi",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "expired_PUC",
+      "expiredDocuments": [
+        "PUC"
+      ],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:27:32.841Z"
+    },
+    {
+      "regNumber": "MH12KW1722",
+      "owner": "Rajesh Patel",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:30:32.841Z"
+    },
+    {
+      "regNumber": "MH12JG5984",
+      "owner": "Aditya Singh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T17:12:32.841Z"
+    },
+    {
+      "regNumber": "KA51ES8205",
+      "owner": "Vikram Pillai",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T18:46:32.841Z"
+    },
+    {
+      "regNumber": "DL3CET4543",
+      "owner": "Deepak Verma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:11:32.841Z"
+    },
+    {
+      "regNumber": "DL3CPO1222",
+      "owner": "Sneha Reddy",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "KA51RS1755",
+      "owner": "Rahul Mishra",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T16:54:32.841Z"
+    },
+    {
+      "regNumber": "DL3CLS8926",
+      "owner": "Anjali Trivedi",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:18:32.841Z"
+    },
+    {
+      "regNumber": "MH12PG1290",
+      "owner": "Manish Nair",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:38:32.841Z"
+    },
+    {
+      "regNumber": "KA51TQ1054",
+      "owner": "Amit Joshi",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T17:12:32.841Z"
+    },
+    {
+      "regNumber": "MH12OR2721",
+      "owner": "Rohan Sharma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "MH02RU2981",
+      "owner": "Rajesh Patel",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:40:32.841Z"
+    },
+    {
+      "regNumber": "DL3CLJ2533",
+      "owner": "Sunita Trivedi",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "blacklisted",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:00:32.841Z"
+    },
+    {
+      "regNumber": "MH12AH1520",
+      "owner": "Deepak Deshmukh",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:40:32.841Z"
+    },
+    {
+      "regNumber": "MH02CW1619",
+      "owner": "Vikram Mishra",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:09:32.841Z"
+    },
+    {
+      "regNumber": "MH12SQ7151",
+      "owner": "Manish Sen",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T17:17:32.841Z"
+    },
+    {
+      "regNumber": "DL3CZY5760",
+      "owner": "Anjali Choudhury",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T18:00:32.841Z"
+    },
+    {
+      "regNumber": "DL3CJB3488",
+      "owner": "Divya Reddy",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:45:32.841Z"
+    },
+    {
+      "regNumber": "DL3COP8522",
+      "owner": "Amit Singh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:59:32.841Z"
+    },
+    {
+      "regNumber": "KA51BQ9555",
+      "owner": "Vijay Patel",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T17:09:32.841Z"
+    },
+    {
+      "regNumber": "DL3CFK6598",
+      "owner": "Deepak Patel",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:20:32.841Z"
+    },
+    {
+      "regNumber": "MH12KU9742",
+      "owner": "Anjali Deshmukh",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:48:32.841Z"
+    },
+    {
+      "regNumber": "MH02KM6452",
+      "owner": "Priya Reddy",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:02:32.841Z"
+    },
+    {
+      "regNumber": "MH12VB2156",
+      "owner": "Sneha Iyer",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T18:29:32.841Z"
+    },
+    {
+      "regNumber": "KA51FL7277",
+      "owner": "Arjun Sen",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "blacklisted",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T17:04:32.841Z"
+    },
+    {
+      "regNumber": "MH02YK8868",
+      "owner": "Arjun Bose",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T18:22:32.841Z"
+    },
+    {
+      "regNumber": "KA51SX9396",
+      "owner": "Rohan Singh",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:34:32.841Z"
+    },
+    {
+      "regNumber": "MH02FH6577",
+      "owner": "Anjali Sen",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_sclr_chembur",
+      "lastSeenCameraName": "SCLR Chembur Junction",
+      "lastSeenTime": "2026-07-16T17:14:32.841Z"
+    },
+    {
+      "regNumber": "DL3CZM3131",
+      "owner": "Sanjay Verma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T18:00:32.841Z"
+    },
+    {
+      "regNumber": "DL3CAN1128",
+      "owner": "Amit Choudhury",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T16:55:32.841Z"
+    },
+    {
+      "regNumber": "MH12HV1819",
+      "owner": "Manish Mehta",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:28:32.841Z"
+    },
+    {
+      "regNumber": "DL3CQJ3185",
+      "owner": "Rohan Mishra",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:47:32.841Z"
+    },
+    {
+      "regNumber": "MH12OQ9807",
+      "owner": "Deepak Singh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T18:44:32.841Z"
+    },
+    {
+      "regNumber": "DL3CXG3500",
+      "owner": "Preeti Reddy",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:54:32.841Z"
+    },
+    {
+      "regNumber": "MH02YW9987",
+      "owner": "Deepak Patel",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:33:32.841Z"
+    },
+    {
+      "regNumber": "KA51NT3940",
+      "owner": "Sneha Deshmukh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T18:05:32.841Z"
+    },
+    {
+      "regNumber": "DL3CVE4690",
+      "owner": "Aditya Garg",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "expired_PUC",
+      "expiredDocuments": [
+        "PUC"
+      ],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:11:32.841Z"
+    },
+    {
+      "regNumber": "DL3CUC2500",
+      "owner": "Aditya Deshmukh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:39:32.841Z"
+    },
+    {
+      "regNumber": "KA51ME6267",
+      "owner": "Deepak Deshmukh",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T17:09:32.841Z"
+    },
+    {
+      "regNumber": "DL3CRP9682",
+      "owner": "Aditya Deshmukh",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:16:32.841Z"
+    },
+    {
+      "regNumber": "DL3CJI6033",
+      "owner": "Sneha Choudhury",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T18:48:32.841Z"
+    },
+    {
+      "regNumber": "KA51LS3573",
+      "owner": "Vijay Bose",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T18:40:32.841Z"
+    },
+    {
+      "regNumber": "MH12RE8885",
+      "owner": "Sneha Kumar",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:59:32.841Z"
+    },
+    {
+      "regNumber": "MH02BF3083",
+      "owner": "Rahul Verma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:42:32.841Z"
+    },
+    {
+      "regNumber": "KA51QT4664",
+      "owner": "Deepak Pillai",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:36:32.841Z"
+    },
+    {
+      "regNumber": "MH12ZA5748",
+      "owner": "Karan Bose",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T16:57:32.841Z"
+    },
+    {
+      "regNumber": "MH12VC1967",
+      "owner": "Sunita Pillai",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "MH12TJ9790",
+      "owner": "Sanjay Rao",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T17:07:32.841Z"
+    },
+    {
+      "regNumber": "MH12KG9214",
+      "owner": "Anjali Rao",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "expired_PUC",
+      "expiredDocuments": [
+        "PUC"
+      ],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T18:50:32.841Z"
+    },
+    {
+      "regNumber": "DL3CJI2806",
+      "owner": "Deepak Verma",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:34:32.841Z"
+    },
+    {
+      "regNumber": "MH12LI6506",
+      "owner": "Vikram Kumar",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T17:27:32.841Z"
+    },
+    {
+      "regNumber": "MH12XX9772",
+      "owner": "Rahul Verma",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:08:32.841Z"
+    },
+    {
+      "regNumber": "MH02CZ6748",
+      "owner": "Kunal Bose",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:30:32.841Z"
+    },
+    {
+      "regNumber": "MH02MC2871",
+      "owner": "Rahul Nair",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:18:32.841Z"
+    },
+    {
+      "regNumber": "MH02NG9030",
+      "owner": "Kunal Kumar",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:34:32.841Z"
+    },
+    {
+      "regNumber": "MH12VG3186",
+      "owner": "Priya Choudhury",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:59:32.841Z"
+    },
+    {
+      "regNumber": "MH02DJ7674",
+      "owner": "Manish Choudhury",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:21:32.841Z"
+    },
+    {
+      "regNumber": "KA51XN1578",
+      "owner": "Rohan Deshmukh",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T17:41:32.841Z"
+    },
+    {
+      "regNumber": "MH12QS3790",
+      "owner": "Sneha Pillai",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T17:32:32.841Z"
+    },
+    {
+      "regNumber": "DL3CPV8047",
+      "owner": "Vikram Iyer",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:08:32.841Z"
+    },
+    {
+      "regNumber": "KA51RF2853",
+      "owner": "Neha Sharma",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:07:32.841Z"
+    },
+    {
+      "regNumber": "KA51JW5790",
+      "owner": "Rohan Verma",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:37:32.841Z"
+    },
+    {
+      "regNumber": "MH12NX5054",
+      "owner": "Priya Joshi",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T18:27:32.841Z"
+    },
+    {
+      "regNumber": "MH12XQ7460",
+      "owner": "Aditya Reddy",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:25:32.841Z"
+    },
+    {
+      "regNumber": "MH12JZ2822",
+      "owner": "Vikram Pillai",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T18:25:32.841Z"
+    },
+    {
+      "regNumber": "KA51TP4923",
+      "owner": "Rohan Gupta",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:52:32.841Z"
+    },
+    {
+      "regNumber": "MH02KB6347",
+      "owner": "Priya Gupta",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T18:12:32.841Z"
+    },
+    {
+      "regNumber": "MH12DM8256",
+      "owner": "Arjun Verma",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T17:10:32.841Z"
+    },
+    {
+      "regNumber": "MH02PH4438",
+      "owner": "Rohan Nair",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:26:32.841Z"
+    },
+    {
+      "regNumber": "DL3CQS6919",
+      "owner": "Deepak Sen",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:01:32.841Z"
+    },
+    {
+      "regNumber": "DL3COF9743",
+      "owner": "Neha Verma",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T17:38:32.841Z"
+    },
+    {
+      "regNumber": "MH12YA1396",
+      "owner": "Karan Mehta",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:24:32.841Z"
+    },
+    {
+      "regNumber": "MH02HW9513",
+      "owner": "Karan Patel",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": true,
+      "flagReason": "stolen",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:09:32.841Z"
+    },
+    {
+      "regNumber": "MH02JB5018",
+      "owner": "Sunita Joshi",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:10:32.841Z"
+    },
+    {
+      "regNumber": "DL3CRB6447",
+      "owner": "Amit Garg",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "DL3CWI2660",
+      "owner": "Rohan Iyer",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:25:32.841Z"
+    },
+    {
+      "regNumber": "KA51ZT3375",
+      "owner": "Anjali Kumar",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T17:34:32.841Z"
+    },
+    {
+      "regNumber": "MH12HX5282",
+      "owner": "Deepak Bose",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T18:11:32.841Z"
+    },
+    {
+      "regNumber": "MH02VC2848",
+      "owner": "Preeti Patel",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "KA51FT2100",
+      "owner": "Neha Sharma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T16:55:32.841Z"
+    },
+    {
+      "regNumber": "MH12KR1494",
+      "owner": "Anjali Gupta",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:22:32.841Z"
+    },
+    {
+      "regNumber": "MH02WB6737",
+      "owner": "Vikram Deshmukh",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "KA51BZ3771",
+      "owner": "Sunita Kumar",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T17:28:32.841Z"
+    },
+    {
+      "regNumber": "KA51CU9095",
+      "owner": "Divya Nair",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T17:56:32.841Z"
+    },
+    {
+      "regNumber": "MH12GV1617",
+      "owner": "Neha Kumar",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:50:32.841Z"
+    },
+    {
+      "regNumber": "MH02QV3053",
+      "owner": "Priya Nair",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T18:46:32.841Z"
+    },
+    {
+      "regNumber": "MH02BH1512",
+      "owner": "Kunal Verma",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:02:32.841Z"
+    },
+    {
+      "regNumber": "MH02YN1974",
+      "owner": "Sanjay Reddy",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:22:32.841Z"
+    },
+    {
+      "regNumber": "KA51KK1409",
+      "owner": "Manish Patel",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:10:32.841Z"
+    },
+    {
+      "regNumber": "KA51LW9305",
+      "owner": "Amit Rao",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T17:03:32.841Z"
+    },
+    {
+      "regNumber": "MH12MW5194",
+      "owner": "Kunal Deshmukh",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T18:05:32.841Z"
+    },
+    {
+      "regNumber": "MH12BR2332",
+      "owner": "Aditya Rao",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:32:32.841Z"
+    },
+    {
+      "regNumber": "KA51FI1957",
+      "owner": "Deepak Mehta",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:45:32.841Z"
+    },
+    {
+      "regNumber": "MH02IG4290",
+      "owner": "Anjali Iyer",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:05:32.841Z"
+    },
+    {
+      "regNumber": "MH12JC8997",
+      "owner": "Rohan Gupta",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T18:13:32.841Z"
+    },
+    {
+      "regNumber": "DL3CXC6860",
+      "owner": "Sanjay Rao",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:46:32.841Z"
+    },
+    {
+      "regNumber": "DL3CSR6075",
+      "owner": "Sunita Choudhury",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "blacklisted",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:44:32.841Z"
+    },
+    {
+      "regNumber": "KA51TT4148",
+      "owner": "Manish Verma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T18:40:32.841Z"
+    },
+    {
+      "regNumber": "KA51KI3534",
+      "owner": "Arjun Mehta",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T17:21:32.841Z"
+    },
+    {
+      "regNumber": "MH02GH4229",
+      "owner": "Rajesh Gupta",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:36:32.841Z"
+    },
+    {
+      "regNumber": "DL3CHJ8371",
+      "owner": "Vikram Sharma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:40:32.841Z"
+    },
+    {
+      "regNumber": "KA51SG1944",
+      "owner": "Preeti Reddy",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:12:32.841Z"
+    },
+    {
+      "regNumber": "MH12DJ8248",
+      "owner": "Vijay Garg",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:13:32.841Z"
+    },
+    {
+      "regNumber": "KA51CF3181",
+      "owner": "Manish Sen",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T17:58:32.841Z"
+    },
+    {
+      "regNumber": "DL3CZJ4815",
+      "owner": "Deepak Patel",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:05:32.841Z"
+    },
+    {
+      "regNumber": "DL3CLZ3783",
+      "owner": "Vijay Gupta",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:13:32.841Z"
+    },
+    {
+      "regNumber": "MH12GF4002",
+      "owner": "Anjali Gupta",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:22:32.841Z"
+    },
+    {
+      "regNumber": "KA51SM2181",
+      "owner": "Rahul Singh",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:53:32.841Z"
+    },
+    {
+      "regNumber": "MH12BA4041",
+      "owner": "Anjali Sen",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "DL3CAE3931",
+      "owner": "Divya Pillai",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:44:32.841Z"
+    },
+    {
+      "regNumber": "MH12SG7044",
+      "owner": "Sunita Trivedi",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:39:32.841Z"
+    },
+    {
+      "regNumber": "MH02TK6601",
+      "owner": "Amit Trivedi",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T18:17:32.841Z"
+    },
+    {
+      "regNumber": "DL3CYE6327",
+      "owner": "Rajesh Verma",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:49:32.841Z"
+    },
+    {
+      "regNumber": "KA51DP5368",
+      "owner": "Sneha Joshi",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T18:13:32.841Z"
+    },
+    {
+      "regNumber": "DL3CEE8728",
+      "owner": "Kunal Garg",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "MH02KA7769",
+      "owner": "Divya Joshi",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:20:32.841Z"
+    },
+    {
+      "regNumber": "DL3CEA6013",
+      "owner": "Sanjay Nair",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:53:32.841Z"
+    },
+    {
+      "regNumber": "MH12NE5112",
+      "owner": "Manish Patel",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T16:54:32.841Z"
+    },
+    {
+      "regNumber": "MH12NF6771",
+      "owner": "Preeti Nair",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T18:04:32.841Z"
+    },
+    {
+      "regNumber": "MH12XE6644",
+      "owner": "Preeti Kumar",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:11:32.841Z"
+    },
+    {
+      "regNumber": "MH02ME8157",
+      "owner": "Rahul Patel",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": true,
+      "flagReason": "expired_PUC",
+      "expiredDocuments": [
+        "PUC"
+      ],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T18:15:32.841Z"
+    },
+    {
+      "regNumber": "KA51GR2738",
+      "owner": "Sanjay Gupta",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T17:47:32.841Z"
+    },
+    {
+      "regNumber": "MH02LT6173",
+      "owner": "Arjun Patel",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_sclr_chembur",
+      "lastSeenCameraName": "SCLR Chembur Junction",
+      "lastSeenTime": "2026-07-16T18:39:32.841Z"
+    },
+    {
+      "regNumber": "MH12DX1169",
+      "owner": "Deepak Iyer",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T18:26:32.841Z"
+    },
+    {
+      "regNumber": "DL3CBR5115",
+      "owner": "Manish Patel",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:39:32.841Z"
+    },
+    {
+      "regNumber": "MH02DZ8574",
+      "owner": "Rajesh Bose",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "MH02BS6574",
+      "owner": "Priya Reddy",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T18:48:32.841Z"
+    },
+    {
+      "regNumber": "MH12FU5416",
+      "owner": "Anjali Pillai",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:48:32.841Z"
+    },
+    {
+      "regNumber": "MH02XL8915",
+      "owner": "Rahul Sharma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:50:32.841Z"
+    },
+    {
+      "regNumber": "KA51XV1223",
+      "owner": "Aditya Gupta",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T17:00:32.841Z"
+    },
+    {
+      "regNumber": "KA51QC5620",
+      "owner": "Rohan Rao",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T18:35:32.841Z"
+    },
+    {
+      "regNumber": "MH02GE5548",
+      "owner": "Vikram Singh",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:46:32.841Z"
+    },
+    {
+      "regNumber": "DL3CCU9966",
+      "owner": "Amit Choudhury",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:39:32.841Z"
+    },
+    {
+      "regNumber": "MH12DJ4312",
+      "owner": "Arjun Nair",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T17:45:32.841Z"
+    },
+    {
+      "regNumber": "MH12GG1752",
+      "owner": "Karan Deshmukh",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "KA51PR5854",
+      "owner": "Divya Joshi",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "KA51XO5688",
+      "owner": "Deepak Singh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T17:39:32.841Z"
+    },
+    {
+      "regNumber": "MH02UU9904",
+      "owner": "Sanjay Deshmukh",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T17:57:32.841Z"
+    },
+    {
+      "regNumber": "MH02ON8582",
+      "owner": "Amit Reddy",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:34:32.841Z"
+    },
+    {
+      "regNumber": "DL3CQC6274",
+      "owner": "Neha Gupta",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_mathura_niz",
+      "lastSeenCameraName": "Mathura Road Nizamuddin Chowk",
+      "lastSeenTime": "2026-07-16T17:30:32.841Z"
+    },
+    {
+      "regNumber": "DL3CGK9349",
+      "owner": "Divya Deshmukh",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "MH02EU7451",
+      "owner": "Sanjay Nair",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:44:32.841Z"
+    },
+    {
+      "regNumber": "MH12HA9185",
+      "owner": "Sanjay Kumar",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T18:10:32.841Z"
+    },
+    {
+      "regNumber": "MH12QT6248",
+      "owner": "Vijay Sharma",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_sb_road",
+      "lastSeenCameraName": "SB Road - ICC Trade Tower",
+      "lastSeenTime": "2026-07-16T17:23:32.841Z"
+    },
+    {
+      "regNumber": "KA51QK1156",
+      "owner": "Preeti Kumar",
+      "type": "Two-Wheeler",
+      "fuelType": "EV",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T18:46:32.841Z"
+    },
+    {
+      "regNumber": "MH02VA8527",
+      "owner": "Rohan Nair",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T17:55:32.841Z"
+    },
+    {
+      "regNumber": "MH02FA6647",
+      "owner": "Amit Garg",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:58:32.841Z"
+    },
+    {
+      "regNumber": "DL3CJF8487",
+      "owner": "Karan Gupta",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:33:32.841Z"
+    },
+    {
+      "regNumber": "KA51FL5635",
+      "owner": "Deepak Sharma",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T17:44:32.841Z"
+    },
+    {
+      "regNumber": "MH12UI7258",
+      "owner": "Preeti Joshi",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:56:32.841Z"
+    },
+    {
+      "regNumber": "MH02QC4163",
+      "owner": "Neha Rao",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:37:32.841Z"
+    },
+    {
+      "regNumber": "MH12JN9593",
+      "owner": "Amit Sharma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_swargate",
+      "lastSeenCameraName": "Swargate Junction Corner",
+      "lastSeenTime": "2026-07-16T17:37:32.841Z"
+    },
+    {
+      "regNumber": "MH02EI4176",
+      "owner": "Sanjay Garg",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T17:40:32.841Z"
+    },
+    {
+      "regNumber": "MH02JY9513",
+      "owner": "Divya Mishra",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:53:32.841Z"
+    },
+    {
+      "regNumber": "MH12WY3156",
+      "owner": "Arjun Sen",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:33:32.841Z"
+    },
+    {
+      "regNumber": "DL3CWP6889",
+      "owner": "Sneha Joshi",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T17:07:32.841Z"
+    },
+    {
+      "regNumber": "DL3CZO7518",
+      "owner": "Deepak Gupta",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": true,
+      "flagReason": "expired_insurance",
+      "expiredDocuments": [
+        "Insurance"
+      ],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T18:41:32.841Z"
+    },
+    {
+      "regNumber": "KA51IG7175",
+      "owner": "Vijay Bose",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T18:23:32.841Z"
+    },
+    {
+      "regNumber": "KA51VV8159",
+      "owner": "Sneha Verma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T18:49:32.841Z"
+    },
+    {
+      "regNumber": "DL3CRC8415",
+      "owner": "Rohan Rao",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T17:54:32.841Z"
+    },
+    {
+      "regNumber": "MH02PZ6628",
+      "owner": "Anjali Pillai",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T17:08:32.841Z"
+    },
+    {
+      "regNumber": "KA51JA4063",
+      "owner": "Kunal Verma",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T17:52:32.841Z"
+    },
+    {
+      "regNumber": "DL3CYV4122",
+      "owner": "Karan Mishra",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T18:03:32.841Z"
+    },
+    {
+      "regNumber": "KA51EP2189",
+      "owner": "Manish Rao",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T18:37:32.841Z"
+    },
+    {
+      "regNumber": "DL3CHR6715",
+      "owner": "Aditya Rao",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:55:32.841Z"
+    },
+    {
+      "regNumber": "MH02XG6884",
+      "owner": "Anjali Kumar",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:36:32.841Z"
+    },
+    {
+      "regNumber": "KA51PY6870",
+      "owner": "Deepak Rao",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_100ft",
+      "lastSeenCameraName": "Indiranagar 100ft Double Rd",
+      "lastSeenTime": "2026-07-16T16:59:32.841Z"
+    },
+    {
+      "regNumber": "MH02KL8367",
+      "owner": "Manish Patel",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_link_khar",
+      "lastSeenCameraName": "Khar Link Road Intersection",
+      "lastSeenTime": "2026-07-16T18:11:32.841Z"
+    },
+    {
+      "regNumber": "KA51XR7796",
+      "owner": "Rahul Garg",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": true,
+      "flagReason": "blacklisted",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_silkboard",
+      "lastSeenCameraName": "Silk Board Junction Camera",
+      "lastSeenTime": "2026-07-16T18:30:32.841Z"
+    },
+    {
+      "regNumber": "MH02LG1474",
+      "owner": "Vijay Garg",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_weh_andheri",
+      "lastSeenCameraName": "WEH - Andheri Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:32:32.841Z"
+    },
+    {
+      "regNumber": "DL3CPR3220",
+      "owner": "Karan Sen",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:40:32.841Z"
+    },
+    {
+      "regNumber": "DL3CGZ4456",
+      "owner": "Deepak Iyer",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_dnd_noida",
+      "lastSeenCameraName": "DND Flyway Noida Entry Toll",
+      "lastSeenTime": "2026-07-16T17:57:32.841Z"
+    },
+    {
+      "regNumber": "DL3CQJ7859",
+      "owner": "Kunal Sharma",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_orr_nehru",
+      "lastSeenCameraName": "Outer Ring Road Nehru Place",
+      "lastSeenTime": "2026-07-16T18:15:32.841Z"
+    },
+    {
+      "regNumber": "KA51CL9172",
+      "owner": "Vikram Kumar",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T17:11:32.841Z"
+    },
+    {
+      "regNumber": "KA51TZ8220",
+      "owner": "Priya Deshmukh",
+      "type": "Car",
+      "fuelType": "EV",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_mg_res",
+      "lastSeenCameraName": "MG Road - Brigade Rd Junction",
+      "lastSeenTime": "2026-07-16T17:32:32.841Z"
+    },
+    {
+      "regNumber": "KA51HS3181",
+      "owner": "Vijay Gupta",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_hsr3",
+      "lastSeenCameraName": "HSR Layout Sector 3 Chowk",
+      "lastSeenTime": "2026-07-16T17:18:32.841Z"
+    },
+    {
+      "regNumber": "DL3CCL4629",
+      "owner": "Amit Verma",
+      "type": "Two-Wheeler",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_ring_aiims",
+      "lastSeenCameraName": "Ring Road AIIMS Flyover Junction",
+      "lastSeenTime": "2026-07-16T18:18:32.842Z"
+    },
+    {
+      "regNumber": "MH02YD7816",
+      "owner": "Kunal Garg",
+      "type": "Two-Wheeler",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_bandra",
+      "lastSeenCameraName": "Bandra BWSL Entrance Chowk",
+      "lastSeenTime": "2026-07-16T16:59:32.842Z"
+    },
+    {
+      "regNumber": "DL3COD9274",
+      "owner": "Divya Mishra",
+      "type": "Bus",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T18:11:32.842Z"
+    },
+    {
+      "regNumber": "MH12RA5838",
+      "owner": "Divya Sen",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T17:17:32.842Z"
+    },
+    {
+      "regNumber": "MH12UE6687",
+      "owner": "Vijay Joshi",
+      "type": "Car",
+      "fuelType": "CNG",
+      "flagged": true,
+      "flagReason": "blacklisted",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T18:07:32.842Z"
+    },
+    {
+      "regNumber": "MH12WT7171",
+      "owner": "Amit Singh",
+      "type": "Auto-Rickshaw",
+      "fuelType": "CNG",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_hinjewadi",
+      "lastSeenCameraName": "Hinjewadi Shivaji Chowk",
+      "lastSeenTime": "2026-07-16T18:00:32.842Z"
+    },
+    {
+      "regNumber": "MH12XT8138",
+      "owner": "Amit Pillai",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_univ",
+      "lastSeenCameraName": "Pune University Chowk",
+      "lastSeenTime": "2026-07-16T18:21:32.842Z"
+    },
+    {
+      "regNumber": "MH12ZP3566",
+      "owner": "Deepak Mishra",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_pn_karve",
+      "lastSeenCameraName": "Karve Road Nal Stop Chowk",
+      "lastSeenTime": "2026-07-16T17:28:32.842Z"
+    },
+    {
+      "regNumber": "DL3CVG9252",
+      "owner": "Sunita Singh",
+      "type": "Two-Wheeler",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T17:21:32.842Z"
+    },
+    {
+      "regNumber": "KA51VA5086",
+      "owner": "Vijay Sen",
+      "type": "Truck",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_blr_ecity",
+      "lastSeenCameraName": "Electronic City Toll Plaza",
+      "lastSeenTime": "2026-07-16T18:47:32.842Z"
+    },
+    {
+      "regNumber": "MH02XE2522",
+      "owner": "Vikram Gupta",
+      "type": "Car",
+      "fuelType": "Petrol",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_mum_marine",
+      "lastSeenCameraName": "Marine Drive - Chowpatty Chowk",
+      "lastSeenTime": "2026-07-16T17:27:32.842Z"
+    },
+    {
+      "regNumber": "DL3CUC4708",
+      "owner": "Sunita Nair",
+      "type": "Car",
+      "fuelType": "Diesel",
+      "flagged": false,
+      "flagReason": "none",
+      "expiredDocuments": [],
+      "lastSeenCamera": "cam_del_cp_circle",
+      "lastSeenCameraName": "CP Outer Circle Connaught Chowk",
+      "lastSeenTime": "2026-07-16T16:54:32.842Z"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc_1",
+      "cityId": "bengaluru",
+      "roadId": "blr_orr",
+      "type": "breakdown",
+      "description": "BMTC Bus breakdown blocking the left lane near HSR Flyover",
+      "severity": "medium",
+      "reportedTime": "2026-07-16T18:23:32.838Z",
+      "status": "reported"
+    },
+    {
+      "id": "inc_2",
+      "cityId": "mumbai",
+      "roadId": "mum_weh",
+      "type": "accident",
+      "description": "Minor bumper-to-bumper collision between two cars on Andheri flyover",
+      "severity": "high",
+      "reportedTime": "2026-07-16T17:53:32.839Z",
+      "status": "resolving"
+    },
+    {
+      "id": "inc_3",
+      "cityId": "delhi",
+      "roadId": "del_mathura",
+      "type": "waterlogging",
+      "description": "Severe waterlogging at Nizamuddin subway following heavy rain",
+      "severity": "high",
+      "reportedTime": "2026-07-16T16:53:32.839Z",
+      "status": "reported"
+    },
+    {
+      "id": "inc_4",
+      "cityId": "pune",
+      "roadId": "pn_hinjewadi",
+      "type": "vip_movement",
+      "description": "VIP convoy passing through Shivaji Chowk - expect intermittent closures",
+      "severity": "low",
+      "reportedTime": "2026-07-16T18:38:32.839Z",
+      "status": "reported"
+    }
+  ],
+  "analytics": {
+    "delhi": [
+      {
+        "hour": "0:00",
+        "congestion": 19,
+        "aqi": 132,
+        "vehicleCount": 1520
+      },
+      {
+        "hour": "1:00",
+        "congestion": 27,
+        "aqi": 134,
+        "vehicleCount": 2160
+      },
+      {
+        "hour": "2:00",
+        "congestion": 26,
+        "aqi": 131,
+        "vehicleCount": 2080
+      },
+      {
+        "hour": "3:00",
+        "congestion": 28,
+        "aqi": 144,
+        "vehicleCount": 2240
+      },
+      {
+        "hour": "4:00",
+        "congestion": 27,
+        "aqi": 105,
+        "vehicleCount": 2160
+      },
+      {
+        "hour": "5:00",
+        "congestion": 23,
+        "aqi": 107,
+        "vehicleCount": 1840
+      },
+      {
+        "hour": "6:00",
+        "congestion": 17,
+        "aqi": 120,
+        "vehicleCount": 1360
+      },
+      {
+        "hour": "7:00",
+        "congestion": 20,
+        "aqi": 149,
+        "vehicleCount": 1600
+      },
+      {
+        "hour": "8:00",
+        "congestion": 88,
+        "aqi": 359,
+        "vehicleCount": 7040
+      },
+      {
+        "hour": "9:00",
+        "congestion": 78,
+        "aqi": 365,
+        "vehicleCount": 6240
+      },
+      {
+        "hour": "10:00",
+        "congestion": 86,
+        "aqi": 336,
+        "vehicleCount": 6880
+      },
+      {
+        "hour": "11:00",
+        "congestion": 48,
+        "aqi": 246,
+        "vehicleCount": 3840
+      },
+      {
+        "hour": "12:00",
+        "congestion": 52,
+        "aqi": 255,
+        "vehicleCount": 4160
+      },
+      {
+        "hour": "13:00",
+        "congestion": 50,
+        "aqi": 240,
+        "vehicleCount": 4000
+      },
+      {
+        "hour": "14:00",
+        "congestion": 49,
+        "aqi": 218,
+        "vehicleCount": 3920
+      },
+      {
+        "hour": "15:00",
+        "congestion": 45,
+        "aqi": 239,
+        "vehicleCount": 3600
+      },
+      {
+        "hour": "16:00",
+        "congestion": 56,
+        "aqi": 248,
+        "vehicleCount": 4480
+      },
+      {
+        "hour": "17:00",
+        "congestion": 52,
+        "aqi": 264,
+        "vehicleCount": 4160
+      },
+      {
+        "hour": "18:00",
+        "congestion": 83,
+        "aqi": 402,
+        "vehicleCount": 6640
+      },
+      {
+        "hour": "19:00",
+        "congestion": 84,
+        "aqi": 420,
+        "vehicleCount": 6720
+      },
+      {
+        "hour": "20:00",
+        "congestion": 83,
+        "aqi": 419,
+        "vehicleCount": 6640
+      },
+      {
+        "hour": "21:00",
+        "congestion": 84,
+        "aqi": 473,
+        "vehicleCount": 6720
+      },
+      {
+        "hour": "22:00",
+        "congestion": 21,
+        "aqi": 134,
+        "vehicleCount": 1680
+      },
+      {
+        "hour": "23:00",
+        "congestion": 26,
+        "aqi": 135,
+        "vehicleCount": 2080
+      }
+    ],
+    "mumbai": [
+      {
+        "hour": "0:00",
+        "congestion": 24,
+        "aqi": 73,
+        "vehicleCount": 1560
+      },
+      {
+        "hour": "1:00",
+        "congestion": 17,
+        "aqi": 75,
+        "vehicleCount": 1105
+      },
+      {
+        "hour": "2:00",
+        "congestion": 25,
+        "aqi": 94,
+        "vehicleCount": 1625
+      },
+      {
+        "hour": "3:00",
+        "congestion": 25,
+        "aqi": 68,
+        "vehicleCount": 1625
+      },
+      {
+        "hour": "4:00",
+        "congestion": 22,
+        "aqi": 87,
+        "vehicleCount": 1430
+      },
+      {
+        "hour": "5:00",
+        "congestion": 32,
+        "aqi": 70,
+        "vehicleCount": 2080
+      },
+      {
+        "hour": "6:00",
+        "congestion": 22,
+        "aqi": 86,
+        "vehicleCount": 1430
+      },
+      {
+        "hour": "7:00",
+        "congestion": 29,
+        "aqi": 72,
+        "vehicleCount": 1885
+      },
+      {
+        "hour": "8:00",
+        "congestion": 98,
+        "aqi": 219,
+        "vehicleCount": 6370
+      },
+      {
+        "hour": "9:00",
+        "congestion": 96,
+        "aqi": 256,
+        "vehicleCount": 6240
+      },
+      {
+        "hour": "10:00",
+        "congestion": 83,
+        "aqi": 236,
+        "vehicleCount": 5395
+      },
+      {
+        "hour": "11:00",
+        "congestion": 64,
+        "aqi": 166,
+        "vehicleCount": 4160
+      },
+      {
+        "hour": "12:00",
+        "congestion": 59,
+        "aqi": 140,
+        "vehicleCount": 3835
+      },
+      {
+        "hour": "13:00",
+        "congestion": 53,
+        "aqi": 153,
+        "vehicleCount": 3445
+      },
+      {
+        "hour": "14:00",
+        "congestion": 55,
+        "aqi": 145,
+        "vehicleCount": 3575
+      },
+      {
+        "hour": "15:00",
+        "congestion": 52,
+        "aqi": 133,
+        "vehicleCount": 3380
+      },
+      {
+        "hour": "16:00",
+        "congestion": 58,
+        "aqi": 167,
+        "vehicleCount": 3770
+      },
+      {
+        "hour": "17:00",
+        "congestion": 65,
+        "aqi": 149,
+        "vehicleCount": 4225
+      },
+      {
+        "hour": "18:00",
+        "congestion": 100,
+        "aqi": 239,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "19:00",
+        "congestion": 100,
+        "aqi": 265,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "20:00",
+        "congestion": 90,
+        "aqi": 263,
+        "vehicleCount": 5850
+      },
+      {
+        "hour": "21:00",
+        "congestion": 99,
+        "aqi": 292,
+        "vehicleCount": 6435
+      },
+      {
+        "hour": "22:00",
+        "congestion": 32,
+        "aqi": 75,
+        "vehicleCount": 2080
+      },
+      {
+        "hour": "23:00",
+        "congestion": 32,
+        "aqi": 88,
+        "vehicleCount": 2080
+      }
+    ],
+    "bengaluru": [
+      {
+        "hour": "0:00",
+        "congestion": 30,
+        "aqi": 68,
+        "vehicleCount": 1950
+      },
+      {
+        "hour": "1:00",
+        "congestion": 31,
+        "aqi": 57,
+        "vehicleCount": 2015
+      },
+      {
+        "hour": "2:00",
+        "congestion": 23,
+        "aqi": 62,
+        "vehicleCount": 1495
+      },
+      {
+        "hour": "3:00",
+        "congestion": 18,
+        "aqi": 68,
+        "vehicleCount": 1170
+      },
+      {
+        "hour": "4:00",
+        "congestion": 28,
+        "aqi": 68,
+        "vehicleCount": 1820
+      },
+      {
+        "hour": "5:00",
+        "congestion": 17,
+        "aqi": 72,
+        "vehicleCount": 1105
+      },
+      {
+        "hour": "6:00",
+        "congestion": 28,
+        "aqi": 53,
+        "vehicleCount": 1820
+      },
+      {
+        "hour": "7:00",
+        "congestion": 25,
+        "aqi": 56,
+        "vehicleCount": 1625
+      },
+      {
+        "hour": "8:00",
+        "congestion": 100,
+        "aqi": 206,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "9:00",
+        "congestion": 100,
+        "aqi": 192,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "10:00",
+        "congestion": 89,
+        "aqi": 181,
+        "vehicleCount": 5785
+      },
+      {
+        "hour": "11:00",
+        "congestion": 59,
+        "aqi": 116,
+        "vehicleCount": 3835
+      },
+      {
+        "hour": "12:00",
+        "congestion": 59,
+        "aqi": 129,
+        "vehicleCount": 3835
+      },
+      {
+        "hour": "13:00",
+        "congestion": 63,
+        "aqi": 110,
+        "vehicleCount": 4095
+      },
+      {
+        "hour": "14:00",
+        "congestion": 57,
+        "aqi": 108,
+        "vehicleCount": 3705
+      },
+      {
+        "hour": "15:00",
+        "congestion": 68,
+        "aqi": 118,
+        "vehicleCount": 4420
+      },
+      {
+        "hour": "16:00",
+        "congestion": 59,
+        "aqi": 133,
+        "vehicleCount": 3835
+      },
+      {
+        "hour": "17:00",
+        "congestion": 62,
+        "aqi": 128,
+        "vehicleCount": 4030
+      },
+      {
+        "hour": "18:00",
+        "congestion": 99,
+        "aqi": 191,
+        "vehicleCount": 6435
+      },
+      {
+        "hour": "19:00",
+        "congestion": 100,
+        "aqi": 216,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "20:00",
+        "congestion": 92,
+        "aqi": 209,
+        "vehicleCount": 5980
+      },
+      {
+        "hour": "21:00",
+        "congestion": 100,
+        "aqi": 193,
+        "vehicleCount": 6500
+      },
+      {
+        "hour": "22:00",
+        "congestion": 18,
+        "aqi": 66,
+        "vehicleCount": 1170
+      },
+      {
+        "hour": "23:00",
+        "congestion": 28,
+        "aqi": 65,
+        "vehicleCount": 1820
+      }
+    ],
+    "pune": [
+      {
+        "hour": "0:00",
+        "congestion": 13,
+        "aqi": 92,
+        "vehicleCount": 845
+      },
+      {
+        "hour": "1:00",
+        "congestion": 21,
+        "aqi": 93,
+        "vehicleCount": 1365
+      },
+      {
+        "hour": "2:00",
+        "congestion": 14,
+        "aqi": 94,
+        "vehicleCount": 910
+      },
+      {
+        "hour": "3:00",
+        "congestion": 25,
+        "aqi": 81,
+        "vehicleCount": 1625
+      },
+      {
+        "hour": "4:00",
+        "congestion": 16,
+        "aqi": 86,
+        "vehicleCount": 1040
+      },
+      {
+        "hour": "5:00",
+        "congestion": 13,
+        "aqi": 82,
+        "vehicleCount": 845
+      },
+      {
+        "hour": "6:00",
+        "congestion": 24,
+        "aqi": 73,
+        "vehicleCount": 1560
+      },
+      {
+        "hour": "7:00",
+        "congestion": 22,
+        "aqi": 86,
+        "vehicleCount": 1430
+      },
+      {
+        "hour": "8:00",
+        "congestion": 72,
+        "aqi": 229,
+        "vehicleCount": 4680
+      },
+      {
+        "hour": "9:00",
+        "congestion": 75,
+        "aqi": 210,
+        "vehicleCount": 4875
+      },
+      {
+        "hour": "10:00",
+        "congestion": 74,
+        "aqi": 234,
+        "vehicleCount": 4810
+      },
+      {
+        "hour": "11:00",
+        "congestion": 50,
+        "aqi": 135,
+        "vehicleCount": 3250
+      },
+      {
+        "hour": "12:00",
+        "congestion": 48,
+        "aqi": 134,
+        "vehicleCount": 3120
+      },
+      {
+        "hour": "13:00",
+        "congestion": 43,
+        "aqi": 153,
+        "vehicleCount": 2795
+      },
+      {
+        "hour": "14:00",
+        "congestion": 39,
+        "aqi": 138,
+        "vehicleCount": 2535
+      },
+      {
+        "hour": "15:00",
+        "congestion": 48,
+        "aqi": 141,
+        "vehicleCount": 3120
+      },
+      {
+        "hour": "16:00",
+        "congestion": 39,
+        "aqi": 138,
+        "vehicleCount": 2535
+      },
+      {
+        "hour": "17:00",
+        "congestion": 43,
+        "aqi": 166,
+        "vehicleCount": 2795
+      },
+      {
+        "hour": "18:00",
+        "congestion": 79,
+        "aqi": 238,
+        "vehicleCount": 5135
+      },
+      {
+        "hour": "19:00",
+        "congestion": 79,
+        "aqi": 257,
+        "vehicleCount": 5135
+      },
+      {
+        "hour": "20:00",
+        "congestion": 77,
+        "aqi": 288,
+        "vehicleCount": 5005
+      },
+      {
+        "hour": "21:00",
+        "congestion": 77,
+        "aqi": 269,
+        "vehicleCount": 5005
+      },
+      {
+        "hour": "22:00",
+        "congestion": 15,
+        "aqi": 70,
+        "vehicleCount": 975
+      },
+      {
+        "hour": "23:00",
+        "congestion": 18,
+        "aqi": 72,
+        "vehicleCount": 1170
+      }
+    ]
+  },
+  "logs": [
+    {
+      "timestamp": "2026-07-16T18:53:32.842Z",
+      "message": "Smart Traffic Management System Database Initialized"
+    }
+  ]
+}

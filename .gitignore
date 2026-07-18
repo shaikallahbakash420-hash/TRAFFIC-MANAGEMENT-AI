@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+coverage/
+dist/
+build/
+.env
+.env.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+package-lock.json.tmp
+traffic.db
+traffic.db-shm
+traffic.db-wal
